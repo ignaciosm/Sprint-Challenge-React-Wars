@@ -11,13 +11,17 @@ const StarWarsCards = (props) => {
   return (
     <>
       <Card>
-        {/* <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" /> */}
         <CardBody>
           <CardTitle>{props.char.name}</CardTitle>
-          <CardSubtitle>{`Gender: ${props.char.gender}`}</CardSubtitle>
-          <CardSubtitle>{`Hair color: ${props.char.hair_color}`}</CardSubtitle>
-          {/* <CardText>{props.char.films}</CardText> */}
-          {/* <Button>Button</Button> */}
+      
+          <CardSubtitle>{`  Height: ${props.char.  height}`}</CardSubtitle>
+          <CardSubtitle>{`  Mass: ${props.char.  mass}`}</CardSubtitle>
+          <CardSubtitle>{`  Hair_Color: ${props.char.  hair_color}`}</CardSubtitle>
+          <CardSubtitle>{`  Skin_Color: ${props.char.  skin_color}`}</CardSubtitle>
+          <CardSubtitle>{`  Eye_Color: ${props.char.  eye_color}`}</CardSubtitle>
+          <CardSubtitle>{`  Birth_Year: ${props.char.  birth_year}`}</CardSubtitle>
+          <CardSubtitle>{`  Gender: ${props.char.  gender}`}</CardSubtitle>
+          
         </CardBody>
       </Card>
     </>
