@@ -1,0 +1,13 @@
+.col-sm-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.card {
+  width: 30%;
+  margin: 2% 0;
+}
