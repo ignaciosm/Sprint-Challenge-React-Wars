@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+// import axios from "axios";
+import StarWars from './components/StarWars';
 import './App.css';
 
 const App = () => {
@@ -12,6 +14,9 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <div>
+        <StarWars />
+      </div>
     </div>
   );
 }
